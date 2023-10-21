@@ -1,0 +1,15 @@
+
+.dropdown-item,
+.item {
+  color: black;
+  font-size: large;
+}
+.text-white {
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+h5 {
+  font-weight: bold;
+  font-family: "Times New Roman", Times, serif;
+}
