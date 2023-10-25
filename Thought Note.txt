@@ -1,0 +1,98 @@
+Hello, my name is Piyush Dahle.
+
+This is my final project of my front end development where I'm created the ecommerce website design according to the project requirement.
+
+In this project I'm created the 5 folders name as 'common', 'css', 'images', 'javascript' and 'pages'. Common folder containing the header and footer file of html. CSS folder containing the css files of the project. Images folder containing the images which is used in the project. Javascript folder cotaining the login page js code. There are total 14 files of html in the projet 13 files are available in the 'pages' folder and one file is available to the out side of the 'pages' folder.
+
+Extra :- 
+
+1. I'm created the banners for many pages using canva.
+2. Giving some transition effect in card product images.  
+3. In the footer part adding some social icon with hover effects and linked with my id's.
+4. I'm crated in the Home page one carousel of brands name logo.
+5. Adding the background image in the pages like 'contact', 'login' and 'cart'.  
+
+-->Name list of 14 pages
+
+1. Index :- Home page 
+2. All product :- All prodent page
+   * Women *
+3. Women all product :- All product of women collection page
+4. Dresses :- Women Dresses page
+5. Women Pants :- Women Pants page
+6. Skirts :- Women Skirts page
+   * Men *
+7. Men all product :- All product of men collection page
+8. Shirts :- Men Shirts page
+9. Men Pants :- Men Pants page
+10. Hoodies :- Men Hoodies page
+11. Kids :- Kids collection page
+12. Contact :- Contact page 
+13. Login :- Login page
+14. Cart :- Cart page
+
+Common folder
+
+Header file:- 
+It is cotaining the 2 navbars which 1st navbar having the logo at the left side, search bar at the certer, login button at the right side and cart button at the right side. All the button of 1st navbar having the some transition effect, hover effect and animation effect. The 2nd navbar cotaining the product item page link and contact page link. The links which are available in the 2nd navbar name as Home , All product, Women dropdown, Men dropdown, Kids and contact. Women dropdown containing the women all products page link, dresses page link, women pants page link and skirts page link. Men dropdown containing the Men all products page link, Shirts page link, Men pants page link and Hoodies page link.
+
+Footer file:-
+It is cotaining the products page link, home page link, contact page link and login page link.
+There are some social media logo like facebook, discord, youtube, instagram linkedin and github. This social media logo having some hover effects and at the end having the "COPYRIGHT © DAHLE MART 2023" contant.
+
+-->1st page (Home Page)
+It is cotaining the header, main contact and footer parts. The header and footer of the common folder has been added to the header and footer part of the home page using jQuery.In the main contant it has banner image and on the banner image logo name and slogan is added. It is having the brads image carousel. It is having the featured product part where all the product cards are available having the carousel property of bootsrap which slide the product card. Card containing the product image, product name, product price and add to cart button. 
+
+-->2nd page (All product)
+It is cotaining the header, main contact and footer parts. The header and footer of the common folder has been added to the header and footer part of the home page using jQuery. In the main contant it has three banner image which slide the banner using carousel property. It is having the Women collection part, Men collection part and kids collection part where all the product cards are available having the carousel property of bootsrap which slide the product card. Card containing the product image, product name, product price and add to cart button.
+
+-->3rd page (Women:- All product)
+It is cotaining the header, main contact and footer parts. The header and footer of the common folder has been added to the header and footer part of the home page using jQuery. In the main contant it is having the banner image. It is having the Women collection part where all the product cards are available having the carousel property of bootsrap which slide the product card. Card containing the product image, product name, product price and add to cart button.
+
+-->4th page (Women:- Dresses)
+It is cotaining the header, main contact and footer parts. The header and footer of the common folder has been added to the header and footer part of the home page using jQuery. In the main contant it is having the banner image. It is having the Women Dresses part where all the product cards are available having the carousel property of bootsrap which slide the product card. Card containing the product image, product name, product price and add to cart button.
+
+-->5th page (Women:- Pants)
+It is cotaining the header, main contact and footer parts. The header and footer of the common folder has been added to the header and footer part of the home page using jQuery. In the main contant it is having the banner image. It is having the Women Pants part where all the product cards are available having the carousel property of bootsrap which slide the product card. Card containing the product image, product name, product price and add to cart button.
+
+-->6th page (Women:- Skirts)
+It is cotaining the header, main contact and footer parts. The header and footer of the common folder has been added to the header and footer part of the home page using jQuery. In the main contant it is having the banner image. It is having the Women Skirts part where all the product cards are available having the carousel property of bootsrap which slide the product card. Card containing the product image, product name, product price and add to cart button.
+
+-->7th page (Men:- All product)
+It is cotaining the header, main contact and footer parts. The header and footer of the common folder has been added to the header and footer part of the home page using jQuery. In the main contant it is having the banner image. It is having the Men collection part where all the product cards are available having the carousel property of bootsrap which slide the product card. Card containing the product image, product name, product price and add to cart button.
+
+-->8th page (Men:- Shirts)
+It is cotaining the header, main contact and footer parts. The header and footer of the common folder has been added to the header and footer part of the home page using jQuery. In the main contant it is having the banner image. It is having the Men Shirts part where all the product cards are available having the carousel property of bootsrap which slide the product card. Card containing the product image, product name, product price and add to cart button.
+
+-->9th page (Men:- Pants)
+It is cotaining the header, main contact and footer parts. The header and footer of the common folder has been added to the header and footer part of the home page using jQuery. In the main contant it is having the banner image. It is having the Men Pants part where all the product cards are available having the carousel property of bootsrap which slide the product card. Card containing the product image, product name, product price and add to cart button.
+
+-->10th page (Men:- Hoodies)
+It is cotaining the header, main contact and footer parts. The header and footer of the common folder has been added to the header and footer part of the home page using jQuery. In the main contant it is having the banner image. It is having the Men Hoodies part where all the product cards are available having the carousel property of bootsrap which slide the product card. Card containing the product image, product name, product price and add to cart button.
+
+-->11th page (Kids)
+It is cotaining the header, main contact and footer parts. The header and footer of the common folder has been added to the header and footer part of the home page using jQuery. In the main contant it is having the banner image. It is having the kids collection part where all the product cards are available having the carousel property of bootsrap which slide the product card. Card containing the product image, product name, product price and add to cart button.
+
+-->12th page (Contact)
+It is cotaining the header, main contact and footer parts. The header and footer of the common folder has been added to the header and footer part of the home page using jQuery. It is having the background image.Using grid propery of bootstrap and set left side image and right side input form. Form cotaining the user name input box, user email input box, message and submit button with hover effects. 
+
+-->13th page (Login)
+It is cotaining the header, main contact and footer parts. The header and footer of the common folder has been added to the header and footer part of the home page using jQuery. It is having the background image. Here, I'm uses javascript if-else condition statement if email id is admin@admin.com and password is 123456 then is show output "Login successful" or if any incorrect email id or password then it will show the output "Incorrect email or password".
+
+-->14th page (Cart)
+It is cotaining the header, main contact and footer parts. The header and footer of the common folder has been added to the header and footer part of the home page using jQuery. It is having the background image.Here, I'm using some grid property and created 2 cards. First card containing the item in cart and the second card containing the summary of the product.
+
+So, this is all about my project and the entire project is fully responsive.
+
+
+
+
+ 
+
+
+
+
+ 
+
+ 
+
