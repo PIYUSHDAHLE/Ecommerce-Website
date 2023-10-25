@@ -1,0 +1,39 @@
+.card-img-top {
+  transition: all 0.3s;
+  cursor: pointer;
+  height: 280px;
+}
+
+.card-img-top:hover {
+  transform: scale(0.9);
+}
+
+.card-body {
+  background-color: rgb(202, 215, 220);
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  font-family: arial;
+  transition: 0.3s;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+
+.card-body .buttonbox {
+  border: none;
+  outline: 0;
+  padding: 12px;
+  color: rgb(255, 255, 255);
+  background-color: #2d33d5;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+}
+
+
+.card-body .buttonbox:hover {
+  color: rgb(255, 255, 255);
+  background-color: rgb(26, 33, 155);
+}

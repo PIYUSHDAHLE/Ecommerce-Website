@@ -1,0 +1,31 @@
+.banner {
+    display: inline;
+    width: 100%;
+    height: 55vh;
+}
+
+.logoname-2 {
+    color: aliceblue;
+    font-size: 50px;
+    font-weight: 800;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+        sans-serif;
+}
+
+.slogan {
+    color: white;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.banner-box {
+    position: relative;
+    text-align: center;
+}
+
+.centered {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
