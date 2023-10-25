@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- meta tags -->
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Contact</title>
+
+    <!-- bootstrap css link -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous" />
+
+    <!-- css link -->
+    <link rel="stylesheet" href="../css/contact.css" />
+  </head>
+
+  <body>
+    <div id="header"></div>
+
+    <div id="main">
+      <br />
+      <br />
+      <h1 class="text-center" style="color: white; font-weight: bolder">
+        Contact Us
+      </h1>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6">
+            <div class="image w-100">
+              <img src="../images/Contact Logo.png" height="385" width="455" />
+            </div>
+          </div>
+
+          <div class="col-md-6">
+            <div class="contact-form">
+              <form action="submit_form.php" method="POST">
+                <div class="form-group">
+                  <label for="name">Name:</label>
+                  <input
+                    type="text"
+                    class="form-controls"
+                    id="name"
+                    name="name"
+                    required />
+                </div>
+                <div class="form-group">
+                  <label for="email">Email:</label>
+                  <input
+                    type="email"
+                    class="form-controls"
+                    id="email"
+                    name="email"
+                    required />
+                </div>
+                <div class="form-group">
+                  <label for="message">Message:</label>
+                  <textarea
+                    class="form-controls"
+                    id="message"
+                    name="message"
+                    rows="4"
+                    required></textarea>
+                </div>
+                <br />
+                <button type="submit" class="submit-btn">Submit</button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <br />
+      <br />
+      <br />
+      <br />
+    </div>
+
+    <div id="footer"></div>
+
+    <!-- jquery script -->
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"
+      integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"></script>
+
+    <!-- bootstrap script -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"></script>
+
+    <script>
+      $(function () {
+        $("#header").load("../common/header.html");
+        $("#footer").load("../common/footer.html");
+      });
+    </script>
+  </body>
+</html>
